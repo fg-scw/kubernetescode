@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Scaleway Test CI/CD, with webhook now!!!'
+    return 'Scaleway Test CI/CD, with Github webhook !!!'
